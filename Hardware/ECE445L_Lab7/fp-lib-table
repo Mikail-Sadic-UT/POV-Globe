@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECE445L")(type "KiCad")(uri "${KIPRJMOD}/../Part Libraries/ECE445L.pretty")(options "KiCad")(descr ""))
+  (lib (name "Parts")(type "KiCad")(uri "${KIPRJMOD}/Parts.pretty")(options "")(descr ""))
+)

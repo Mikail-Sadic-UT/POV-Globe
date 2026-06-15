@@ -1,0 +1,1018 @@
+******************************************************************************
+                  TI ARM Linker PC v20.2.7                     
+******************************************************************************
+>> Linked Mon Jun 15 18:16:56 2026
+
+OUTPUT FILE NAME:   <Lab7-10.out>
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0001de01
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00040000  0001dec4  0002213c  R  X
+  SRAM                  20000000   00008000  00005f88  00002078  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    0001dec8   0001dec8    r-x
+  00000000    00000000    0000026c   0000026c    r-- .intvecs
+  0000026c    0000026c    00014f32   00014f32    r-- .const
+  000151a0    000151a0    00008cb6   00008cb6    r-x .text
+  0001de58    0001de58    00000070   00000070    r-- .cinit
+20000000    20000000    00005f88   00000000    rw-
+  20000000    20000000    00005cf8   00000000    rw- .bss
+  20005cf8    20005cf8    00000200   00000000    rw- .stack
+  20005ef8    20005ef8    00000090   00000000    rw- .data
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    0000026c     
+                  00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
+
+.const     0    0000026c    00014f32     
+                  0000026c    00004e34     dermot_data.obj (.const:dermot_data)
+                  000050a0    00004e34     eye_data.obj (.const:eye_data)
+                  00009ed4    00004e34     map_data.obj (.const:map_data)
+                  0000ed08    00004e34     vote_data.obj (.const:vote_data)
+                  00013b3c    000004fb     ST7735.obj (.const:.string:Font)
+                  00014037    00000300     dermot_palette.obj (.const:dermot_palette)
+                  00014337    00000300     eye_palette.obj (.const:eye_palette)
+                  00014637    00000300     map_palette.obj (.const:map_palette)
+                  00014937    00000300     vote_palette.obj (.const:vote_palette)
+                  00014c37    00000200     ST7735.obj (.const:.string:dBfs)
+                  00014e37    00000067     ST7735.obj (.const:.string:Bcmd)
+                  00014e9e    00000001     main_sd.obj (.const)
+                  00014e9f    00000001     --HOLE-- [fill = 0]
+                  00014ea0    00000060     main_sd.obj (.const:animations)
+                  00014f00    00000060     main_sd.obj (.const:pictures)
+                  00014f60    00000054     main_sd.obj (.const:.string)
+                  00014fb4    0000003c     ST7735.obj (.const:circle)
+                  00014ff0    0000003b     ST7735.obj (.const:.string:Rcmd1)
+                  0001502b    00000030     baby_palette.obj (.const:baby_palette)
+                  0001505b    00000030     boi_palette.obj (.const:boi_palette)
+                  0001508b    00000030     cat_space_palette.obj (.const:cat_space_palette)
+                  000150bb    00000030     frog_palette.obj (.const:frog_palette)
+                  000150eb    0000002b     ST7735.obj (.const:.string:Rcmd3)
+                  00015116    00000024     ST7735.obj (.const:smallCircle)
+                  0001513a    00000002     --HOLE-- [fill = 0]
+                  0001513c    0000001c     GPIO.obj (.const:COLORWHEEL)
+                  00015158    00000016     ff.obj (.const:cst$2)
+                  0001516e    00000016     ff.obj (.const:vst$1)
+                  00015184    0000000d     ST7735.obj (.const:.string:Rcmd2green)
+                  00015191    0000000d     ST7735.obj (.const:.string:Rcmd2red)
+
+.text      0    000151a0    00008cb6     
+                  000151a0    00003968     ff.obj (.text)
+                  00018b08    00001d78     ST7735.obj (.text)
+                  0001a880    00000b98     diskio_DMA.obj (.text)
+                  0001b418    000007f6     SK9822.obj (.text)
+                  0001bc0e    00000002     rtsv7M4_T_le_v4SPD16_eabi.lib : div0.asm.obj (.text)
+                  0001bc10    00000658     LCD.obj (.text)
+                  0001c268    000005a4     Motor.obj (.text)
+                  0001c80c    000005a4     main_sd.obj (.text)
+                  0001cdb0    000002fc     GPIO.obj (.text)
+                  0001d0ac    000002b8     SK9822_DMA_SSI.obj (.text)
+                  0001d364    00000134     SD_DMA.obj (.text)
+                  0001d498    00000112     tm4c123gh6pm_startup_ccs.obj (.text)
+                  0001d5aa    00000002     --HOLE-- [fill = 0]
+                  0001d5ac    00000100     Mic.obj (.text)
+                  0001d6ac    000000c8     Timer4A.obj (.text)
+                  0001d774    000000c4     Timer0A.obj (.text)
+                  0001d838    000000bc     Timer1A.obj (.text)
+                  0001d8f4    000000bc     Timer2A.obj (.text)
+                  0001d9b0    000000b8     Timer3A.obj (.text)
+                  0001da68    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : memcpy_t2.asm.obj (.text)
+                  0001db04    00000096                                   : ull_div_t2.asm.obj (.text)
+                  0001db9a    00000002     --HOLE-- [fill = 0]
+                  0001db9c    00000088     PLL.obj (.text)
+                  0001dc24    0000007c     SysTickInts.obj (.text)
+                  0001dca0    0000007a     rtsv7M4_T_le_v4SPD16_eabi.lib : memset_t2.asm.obj (.text)
+                  0001dd1a    00000068                                   : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
+                  0001dd82    00000002     --HOLE-- [fill = 0]
+                  0001dd84    00000044                                   : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  0001ddc8    00000038     DMA_Common.obj (.text)
+                  0001de00    00000034     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  0001de34    0000000e                                   : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
+                  0001de42    0000000c                                   : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init)
+                  0001de4e    00000004                                   : pre_init.c.obj (.text:_system_pre_init)
+                  0001de52    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.cinit     0    0001de58    00000070     
+                  0001de58    0000004b     (.cinit..data.load) [load image, compression = lzss]
+                  0001dea3    00000001     --HOLE-- [fill = 0]
+                  0001dea4    0000000c     (__TI_handler_table)
+                  0001deb0    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  0001deb8    00000010     (__TI_cinit_table)
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.bss       0    20000000    00005cf8     UNINITIALIZED
+                  20000000    00004ec0     main_sd.obj (.bss:sdMem)
+                  20004ec0    0000000c     SK9822_DMA_SSI.obj (.bss)
+                  20004ecc    0000000c     (.common:Message)
+                  20004ed8    00000009     diskio_DMA.obj (.bss)
+                  20004ee1    00000001     --HOLE--
+                  20004ee2    00000002     ff.obj (.bss)
+                  20004ee4    00000004     ff.obj (.bss:FatFs)
+                  20004ee8    00000004     ST7735.obj (.bss)
+                  20004eec    00000004     (.common:Messageindex)
+                  20004ef0    00000004     (.common:PeriodicTask0)
+                  20004ef4    00000004     (.common:PeriodicTask1)
+                  20004ef8    00000004     (.common:PeriodicTask2)
+                  20004efc    00000004     (.common:PeriodicTask3)
+                  20004f00    00000004     (.common:PeriodicTask4)
+                  20004f04    00000004     (.common:X)
+                  20004f08    00000004     (.common:Ymax)
+                  20004f0c    00000004     (.common:Ymin)
+                  20004f10    00000004     (.common:Yrange)
+                  20004f14    00000002     (.common:raw)
+                  20004f16    000000ea     --HOLE--
+                  20005000    00000400     (.common:ucControlTable)
+                  20005400    00000250     main_sd.obj (.bss:BUF_FRAME)
+                  20005650    00000250     main_sd.obj (.bss:DMA_FRAME)
+                  200058a0    00000234     main_sd.obj (.bss:g_sFatFs)
+                  20005ad4    00000224     main_sd.obj (.bss:g_File)
+
+.data      0    20005ef8    00000090     UNINITIALIZED
+                  20005ef8    00000030     main_sd.obj (.data)
+                  20005f28    0000002c     Motor.obj (.data)
+                  20005f54    00000014     ST7735.obj (.data)
+                  20005f68    0000000d     LCD.obj (.data)
+                  20005f75    00000001     SK9822_DMA_SSI.obj (.data)
+                  20005f76    00000001     diskio_DMA.obj (.data)
+                  20005f77    00000001     --HOLE--
+                  20005f78    0000000a     GPIO.obj (.data)
+                  20005f82    00000002     --HOLE--
+                  20005f84    00000004     SysTickInts.obj (.data)
+
+.stack     0    20005cf8    00000200     UNINITIALIZED
+                  20005cf8    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.stack)
+                  20005cfc    000001fc     --HOLE--
+
+__llvm_prf_cnts 
+*          0    20000000    00000000     UNINITIALIZED
+
+MODULE SUMMARY
+
+       Module                         code    ro data   rw data
+       ------                         ----    -------   -------
+    .\
+       main_sd.obj                    1444    277       22506  
+    +--+------------------------------+-------+---------+---------+
+       Total:                         1444    277       22506  
+                                                               
+    .\Data\
+       map_data.obj                   0       20020     0      
+       map_palette.obj                0       768       0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       20788     0      
+                                                               
+    .\Data\baby\
+       baby_palette.obj               0       48        0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       48        0      
+                                                               
+    .\Data\boi\
+       boi_palette.obj                0       48        0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       48        0      
+                                                               
+    .\Data\cat_space\
+       cat_space_palette.obj          0       48        0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       48        0      
+                                                               
+    .\Data\dermot\
+       dermot_data.obj                0       20020     0      
+       dermot_palette.obj             0       768       0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       20788     0      
+                                                               
+    .\Data\eye\
+       eye_data.obj                   0       20020     0      
+       eye_palette.obj                0       768       0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       20788     0      
+                                                               
+    .\Data\frog\
+       frog_palette.obj               0       48        0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       48        0      
+                                                               
+    .\Data\vote\
+       vote_data.obj                  0       20020     0      
+       vote_palette.obj               0       768       0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         0       20788     0      
+                                                               
+    .\Drivers\src\
+       ff.obj                         14696   44        6      
+       ST7735.obj                     7544    2114      56     
+       diskio_DMA.obj                 2968    0         10     
+       SK9822.obj                     2038    0         0      
+       LCD.obj                        1624    0         13     
+       Motor.obj                      1444    0         44     
+       DMA_Common.obj                 56      0         1024   
+       tm4c123gh6pm_startup_ccs.obj   274     620       0      
+       GPIO.obj                       764     28        10     
+       SK9822_DMA_SSI.obj             696     0         13     
+       SD_DMA.obj                     308     0         0      
+       Mic.obj                        256     0         0      
+       Timer4A.obj                    200     0         4      
+       Timer0A.obj                    196     0         4      
+       Timer1A.obj                    188     0         4      
+       Timer2A.obj                    188     0         4      
+       Timer3A.obj                    184     0         4      
+       PLL.obj                        136     0         0      
+       SysTickInts.obj                124     0         4      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         33884   2806      1200   
+                                                               
+    C:\ti\ti-cgt-arm_20.2.7.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
+       memcpy_t2.asm.obj              156     0         0      
+       ull_div_t2.asm.obj             150     0         0      
+       memset_t2.asm.obj              122     0         0      
+       copy_decompress_lzss.c.obj     104     0         0      
+       autoinit.c.obj                 68      0         0      
+       boot_cortex_m.c.obj            52      0         0      
+       copy_decompress_none.c.obj     14      0         0      
+       copy_zero_init.c.obj           12      0         0      
+       exit.c.obj                     4       0         0      
+       pre_init.c.obj                 4       0         0      
+       div0.asm.obj                   2       0         0      
+    +--+------------------------------+-------+---------+---------+
+       Total:                         688     0         0      
+                                                               
+       Stack:                         0       0         512    
+       Linker Generated:              0       111       0      
+    +--+------------------------------+-------+---------+---------+
+       Grand Total:                   36016   86538     24218  
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 0001deb8 records: 2, size/record: 8, table size: 16
+	.data: load addr=0001de58, load size=0000004b bytes, run addr=20005ef8, run size=00000090 bytes, compression=lzss
+	.bss: load addr=0001deb0, load size=00000008 bytes, run addr=20000000, run size=00005cf8 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 0001dea4 records: 3, size/record: 4, table size: 12
+	index: 0, handler: __TI_decompress_lzss
+	index: 1, handler: __TI_decompress_none
+	index: 2, handler: __TI_zero_init
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                          
+-------   ----                          
+0001d4c9  ADC0Seq0_Handler              
+0001d4cb  ADC0Seq1_Handler              
+0001d4cd  ADC0Seq2_Handler              
+0001d4cf  ADC0Seq3_Handler              
+0001d50d  ADC1Seq0_Handler              
+0001d50f  ADC1Seq1_Handler              
+0001d511  ADC1Seq2_Handler              
+0001d513  ADC1Seq3_Handler              
+0001b833  BuildFrame_1bit               
+0001b799  BuildFrame_332                
+0001b8cd  BuildFrame_4bit               
+0001b6fd  BuildFrame_565                
+0001b991  BuildFrame_8bit               
+0001b62f  BuildFrame_Pixel              
+0001b59b  BuildFrame_Solid              
+0001ba39  BuildFrame_VU                 
+0001de53  C$$EXIT                       
+0001d4fb  CAN0_Handler                  
+0001d4fd  CAN1_Handler                  
+0001d4ff  CAN2_Handler                  
+0001a881  CS_Init                       
+0001d4df  Comp0_Handler                 
+0001d4e1  Comp1_Handler                 
+0001d4e3  Comp2_Handler                 
+0001cc61  DMA_Done_Callback             
+0001ddc9  DMA_Init                      
+0001d4a7  DebugMon_Handler              
+00018b6b  Delay1ms                      
+0001d591  DisableInterrupts             
+0001d595  EnableInterrupts              
+0001d5a1  EndCritical                   
+0001d501  Ethernet_Handler              
+0001d517  ExtBus_Handler                
+0001d551  FPU_Handler                   
+0001d561  Fan0_Handler                  
+0001d4e7  FlashCtl_Handler              
+0001d4ad  GPIOPortA_Handler             
+0001cfb5  GPIOPortB_Handler             
+0001d4b1  GPIOPortC_Handler             
+0001d4b3  GPIOPortD_Handler             
+0001d4b5  GPIOPortE_Handler             
+0001cec3  GPIOPortF_Handler             
+0001d4eb  GPIOPortG_Handler             
+0001d4ed  GPIOPortH_Handler             
+0001d519  GPIOPortJ_Handler             
+0001d51b  GPIOPortK_Handler             
+0001d51d  GPIOPortL_Handler             
+0001d55b  GPIOPortM_Handler             
+0001d55d  GPIOPortN_Handler             
+0001d565  GPIOPortP1_Handler            
+0001d567  GPIOPortP2_Handler            
+0001d569  GPIOPortP3_Handler            
+0001d56b  GPIOPortP4_Handler            
+0001d56d  GPIOPortP5_Handler            
+0001d56f  GPIOPortP6_Handler            
+0001d571  GPIOPortP7_Handler            
+0001d563  GPIOPortP_Handler             
+0001d575  GPIOPortQ1_Handler            
+0001d577  GPIOPortQ2_Handler            
+0001d579  GPIOPortQ3_Handler            
+0001d57b  GPIOPortQ4_Handler            
+0001d57d  GPIOPortQ5_Handler            
+0001d57f  GPIOPortQ6_Handler            
+0001d581  GPIOPortQ7_Handler            
+0001d573  GPIOPortQ_Handler             
+0001d583  GPIOPortR_Handler             
+0001d585  GPIOPortS_Handler             
+0001cc0d  Globe_ChangeContent           
+0001cbb9  Globe_ToggleMode              
+0001d503  Hibernate_Handler             
+0001d4bd  I2C0_Handler                  
+0001d4f7  I2C1_Handler                  
+0001d52d  I2C2_Handler                  
+0001d52f  I2C3_Handler                  
+0001d557  I2C4_Handler                  
+0001d559  I2C5_Handler                  
+0001d515  I2S0_Handler                  
+0001c121  LCD_Menu_Init                 
+0001ce7d  LED_HBT                       
+0001cdb1  LED_Init                      
+0001d555  LPC0_Handler                  
+0001bfa5  Menu_Down                     
+0001bfad  Menu_Select                   
+0001bf9d  Menu_Up                       
+20004ecc  Message                       
+20004eec  Messageindex                  
+0001d5ad  Mic_Init                      
+0001d63b  Mic_Read                      
+0001c48f  Motor_GetDuty                 
+0001c7bf  Motor_GetGearAngle            
+0001c7b9  Motor_GetGearPulseCount       
+0001c47f  Motor_GetRPM                  
+0001c7c5  Motor_GetRevPeriod            
+0001c269  Motor_Init                    
+0001c451  Motor_SetDirection            
+0001c3b3  Motor_SetSpeed                
+0001c6bd  Motor_Spindown                
+0001c639  Motor_Spinup                  
+0001c5b1  Motor_StallCheck              
+0001c485  Motor_Stop                    
+0001c715  Motor_Tick                    
+0001a3bd  Output_Clear                  
+0001a3dd  Output_Color                  
+0001a3a9  Output_Init                   
+0001a3cd  Output_Off                    
+0001a3d5  Output_On                     
+0001cfa9  PB_In                         
+0001cf15  PB_Init                       
+0001d553  PECI0_Handler                 
+20005f81  PF0_High                      
+20005f80  PF4_High                      
+0001cea1  PF_In                         
+0001cdf1  PF_Init                       
+0001db9d  PLL_Init                      
+0001d4bf  PWM0Fault_Handler             
+0001d4c1  PWM0Generator0_Handler        
+0001d4c3  PWM0Generator1_Handler        
+0001d4c5  PWM0Generator2_Handler        
+0001d507  PWM0Generator3_Handler        
+0001d58f  PWM1Fault_Handler             
+0001d587  PWM1Generator0_Handler        
+0001d589  PWM1Generator1_Handler        
+0001d58b  PWM1Generator2_Handler        
+0001d58d  PWM1Generator3_Handler        
+0001d4a9  PendSV_Handler                
+20004ef0  PeriodicTask0                 
+20004ef4  PeriodicTask1                 
+20004ef8  PeriodicTask2                 
+20004efc  PeriodicTask3                 
+20004f00  PeriodicTask4                 
+0001d4c7  Quadrature0_Handler           
+0001d4f9  Quadrature1_Handler           
+0001d55f  Quadrature2_Handler           
+0001d499  ResetISR                      
+0001d365  SD_DMA_CH10_Init              
+0001d399  SD_DMA_Read_Sector            
+0001d173  SK9822_DMA_CH13_Init          
+0001d291  SK9822_DMA_IsBusy             
+0001d217  SK9822_DMA_Start              
+0001d0ad  SK9822_SPI_Init               
+0001d4bb  SSI0_Handler                  
+0001a8e3  SSI0_Init                     
+0001d4f1  SSI1_Handler                  
+0001d297  SSI2_Handler                  
+0001d521  SSI3_Handler                  
+00019395  ST7735_Color565               
+000193fd  ST7735_DrawBitmap             
+00019783  ST7735_DrawChar               
+00019615  ST7735_DrawCharS              
+000192bd  ST7735_DrawCircle             
+00018fe1  ST7735_DrawFastHLine          
+00018eeb  ST7735_DrawFastVLine          
+0001a717  ST7735_DrawLine               
+00018e8d  ST7735_DrawPixel              
+000191e5  ST7735_DrawSmallCircle        
+00019905  ST7735_DrawString             
+00019989  ST7735_DrawString2            
+000190cd  ST7735_FillRect               
+0001908f  ST7735_FillScreen             
+00018d57  ST7735_InitB                  
+00018d77  ST7735_InitR                  
+00019db9  ST7735_InvertDisplay          
+0001a635  ST7735_Line                   
+0001a1f9  ST7735_OutChar                
+0001a28d  ST7735_OutChar2               
+0001a31d  ST7735_OutString              
+0001a33b  ST7735_OutString2             
+00019b7d  ST7735_OutUDec                
+00019bef  ST7735_OutUDec4               
+00019c63  ST7735_OutUDec5               
+0001a105  ST7735_PlotBar                
+00019dd9  ST7735_PlotClear              
+00019ef5  ST7735_PlotLine               
+0001a1a5  ST7735_PlotNext               
+0001a1bf  ST7735_PlotNextErase          
+00019e3d  ST7735_PlotPoint              
+0001a02f  ST7735_PlotPoints             
+0001a15b  ST7735_PlotdBfs               
+00019b57  ST7735_SetCursor              
+00019ced  ST7735_SetRotation            
+0001a365  ST7735_SetTextColor           
+0001a6eb  ST7735_SetX                   
+000193c9  ST7735_SwapColor              
+0001a40f  ST7735_XYplot                 
+0001a3ff  ST7735_XYplotInit             
+0001a3eb  ST7735_sDecOut2               
+0001a3f5  ST7735_uBinOut6               
+0001d4a5  SVC_Handler                   
+0001ca91  SetMode_4bit                  
+0001ca5b  SetMode_8bit                  
+0001c995  SetMode_Mic                   
+0001c86b  SetMode_ROM                   
+20005f5c  StTextColor                   
+20005f54  StX                           
+20005f58  StY                           
+0001d599  StartCritical                 
+0001d4e5  SysCtl_Handler                
+0001dc61  SysTick_Handler               
+0001dc25  SysTick_Init                  
+0001d7eb  Timer0A_Handler               
+0001d775  Timer0A_Init                  
+0001d7fb  Timer0A_Stop                  
+0001d4d5  Timer0B_Handler               
+0001d8a3  Timer1A_Handler               
+0001d839  Timer1A_Init                  
+0001d8b3  Timer1A_Stop                  
+0001d4d9  Timer1B_Handler               
+0001d95f  Timer2A_Handler               
+0001d8f5  Timer2A_Init                  
+0001d96f  Timer2A_Stop                  
+0001d4dd  Timer2B_Handler               
+0001da19  Timer3A_Handler               
+0001d9b1  Timer3A_Init                  
+0001da29  Timer3A_Stop                  
+0001d4f5  Timer3B_Handler               
+0001d715  Timer4A_Handler               
+0001d6ad  Timer4A_Init                  
+0001d733  Timer4A_SetPeriod             
+0001d725  Timer4A_Stop                  
+0001d533  Timer4B_Handler               
+0001b3cd  Timer5A_Handler               
+0001d537  Timer5B_Handler               
+0001b36b  Timer5_Init                   
+0001d4b7  UART0_Handler                 
+0001d4b9  UART1_Handler                 
+0001d4ef  UART2_Handler                 
+0001d523  UART3_Handler                 
+0001d525  UART4_Handler                 
+0001d527  UART5_Handler                 
+0001d529  UART6_Handler                 
+0001d52b  UART7_Handler                 
+0001d505  USB0_Handler                  
+0001d4d1  WDT_Handler                   
+0001d5a7  WaitForInterrupt              
+0001c495  WideTimer0A_Handler           
+0001d53b  WideTimer0B_Handler           
+0001d53d  WideTimer1A_Handler           
+0001d53f  WideTimer1B_Handler           
+0001d541  WideTimer2A_Handler           
+0001d543  WideTimer2B_Handler           
+0001d545  WideTimer3A_Handler           
+0001d547  WideTimer3B_Handler           
+0001d549  WideTimer4A_Handler           
+0001d54b  WideTimer4B_Handler           
+0001d54d  WideTimer5A_Handler           
+0001d54f  WideTimer5B_Handler           
+20004f04  X                             
+20004f08  Ymax                          
+20004f0c  Ymin                          
+20004f10  Yrange                        
+20005ef8  __STACK_END                   
+00000200  __STACK_SIZE                  
+20005ef8  __STACK_TOP                   
+0001deb8  __TI_CINIT_Base               
+0001dec8  __TI_CINIT_Limit              
+0001dea4  __TI_Handler_Table_Base       
+0001deb0  __TI_Handler_Table_Limit      
+0001dd85  __TI_auto_init_nobinit_nopinit
+0001dd1b  __TI_decompress_lzss          
+0001de35  __TI_decompress_none          
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+00000000  __TI_static_base__            
+0001de43  __TI_zero_init                
+0001bc0f  __aeabi_idiv0                 
+0001bc0f  __aeabi_ldiv0                 
+0001dca1  __aeabi_memclr                
+0001dca1  __aeabi_memclr4               
+0001dca1  __aeabi_memclr8               
+0001da69  __aeabi_memcpy                
+0001da69  __aeabi_memcpy4               
+0001da69  __aeabi_memcpy8               
+0001dca3  __aeabi_memset                
+0001dca3  __aeabi_memset4               
+0001dca3  __aeabi_memset8               
+0001db05  __aeabi_uldivmod              
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+UNDEFED   __mpu_init                    
+20005cf8  __stack                       
+20000000  __start___llvm_prf_cnts       
+20000000  __stop___llvm_prf_cnts        
+0001de01  _c_int00_noargs               
+UNDEFED   _system_post_cinit            
+0001de4f  _system_pre_init              
+0001de53  abort                         
+0001502b  baby_palette                  
+ffffffff  binit                         
+0001505b  boi_palette                   
+20005f71  btn_down                      
+20005f72  btn_select                    
+20005f70  btn_up                        
+0001c19d  buttonHandler                 
+0001508b  cat_space_palette             
+00014fb4  circle                        
+00015459  clust2sect                    
+00014c37  dBfs                          
+0000026c  dermot_data                   
+00014037  dermot_palette                
+0001ad45  disk_initialize               
+0001b07b  disk_ioctl                    
+0001af0f  disk_read                     
+0001aef5  disk_status                   
+0001b2fb  disk_timerproc                
+0001afb1  disk_write                    
+20005f75  dmaBusy                       
+000050a0  eye_data                      
+00014337  eye_palette                   
+0001716f  f_chdir                       
+00017ccf  f_chmod                       
+0001713f  f_close                       
+00017633  f_closedir                    
+000171df  f_getcwd                      
+00017731  f_getfree                     
+00017f6d  f_getlabel                    
+00017359  f_lseek                       
+00017ad7  f_mkdir                       
+000182f5  f_mkfs                        
+000168d9  f_mount                       
+00016959  f_open                        
+0001758b  f_opendir                     
+00016b79  f_read                        
+00017653  f_readdir                     
+00017d75  f_rename                      
+0001806b  f_setlabel                    
+000176dd  f_stat                        
+00017045  f_sync                        
+0001788f  f_truncate                    
+000179b7  f_unlink                      
+00017ed7  f_utime                       
+00016db3  f_write                       
+0001a39b  ferror                        
+0001a38f  fgetc                         
+00019a0b  fillmessage                   
+00019a4d  fillmessage4                  
+00019abf  fillmessage5                  
+0001a37d  fputc                         
+000150bb  frog_palette                  
+00000000  g_pfnVectors                  
+00015489  get_fat                       
+20005f7c  last_press                    
+20005f64  lastj                         
+20005f6c  lcd_last_press                
+20005f6a  ledModeAnim                   
+0001c8fd  main                          
+00009ed4  map_data                      
+00014637  map_palette                   
+0001da69  memcpy                        
+0001dca9  memset                        
+20005f41  motorRampState                
+20005f74  motorSetpoint                 
+20005f73  motor_state                   
+20005f4d  motor_state_changed           
+20005f84  msTick                        
+0001a445  plotLineX                     
+0001a53d  plotLineY                     
+000155c3  put_fat                       
+20004f14  raw                           
+00015116  smallCircle                   
+0001d50b  uDMA_Error                    
+0001d509  uDMA_Handler                  
+20005000  ucControlTable                
+0000ed08  vote_data                     
+00014937  vote_palette                  
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                          
+-------   ----                          
+00000000  __TI_static_base__            
+00000000  g_pfnVectors                  
+00000200  __STACK_SIZE                  
+0000026c  dermot_data                   
+000050a0  eye_data                      
+00009ed4  map_data                      
+0000ed08  vote_data                     
+00014037  dermot_palette                
+00014337  eye_palette                   
+00014637  map_palette                   
+00014937  vote_palette                  
+00014c37  dBfs                          
+00014fb4  circle                        
+0001502b  baby_palette                  
+0001505b  boi_palette                   
+0001508b  cat_space_palette             
+000150bb  frog_palette                  
+00015116  smallCircle                   
+00015459  clust2sect                    
+00015489  get_fat                       
+000155c3  put_fat                       
+000168d9  f_mount                       
+00016959  f_open                        
+00016b79  f_read                        
+00016db3  f_write                       
+00017045  f_sync                        
+0001713f  f_close                       
+0001716f  f_chdir                       
+000171df  f_getcwd                      
+00017359  f_lseek                       
+0001758b  f_opendir                     
+00017633  f_closedir                    
+00017653  f_readdir                     
+000176dd  f_stat                        
+00017731  f_getfree                     
+0001788f  f_truncate                    
+000179b7  f_unlink                      
+00017ad7  f_mkdir                       
+00017ccf  f_chmod                       
+00017d75  f_rename                      
+00017ed7  f_utime                       
+00017f6d  f_getlabel                    
+0001806b  f_setlabel                    
+000182f5  f_mkfs                        
+00018b6b  Delay1ms                      
+00018d57  ST7735_InitB                  
+00018d77  ST7735_InitR                  
+00018e8d  ST7735_DrawPixel              
+00018eeb  ST7735_DrawFastVLine          
+00018fe1  ST7735_DrawFastHLine          
+0001908f  ST7735_FillScreen             
+000190cd  ST7735_FillRect               
+000191e5  ST7735_DrawSmallCircle        
+000192bd  ST7735_DrawCircle             
+00019395  ST7735_Color565               
+000193c9  ST7735_SwapColor              
+000193fd  ST7735_DrawBitmap             
+00019615  ST7735_DrawCharS              
+00019783  ST7735_DrawChar               
+00019905  ST7735_DrawString             
+00019989  ST7735_DrawString2            
+00019a0b  fillmessage                   
+00019a4d  fillmessage4                  
+00019abf  fillmessage5                  
+00019b57  ST7735_SetCursor              
+00019b7d  ST7735_OutUDec                
+00019bef  ST7735_OutUDec4               
+00019c63  ST7735_OutUDec5               
+00019ced  ST7735_SetRotation            
+00019db9  ST7735_InvertDisplay          
+00019dd9  ST7735_PlotClear              
+00019e3d  ST7735_PlotPoint              
+00019ef5  ST7735_PlotLine               
+0001a02f  ST7735_PlotPoints             
+0001a105  ST7735_PlotBar                
+0001a15b  ST7735_PlotdBfs               
+0001a1a5  ST7735_PlotNext               
+0001a1bf  ST7735_PlotNextErase          
+0001a1f9  ST7735_OutChar                
+0001a28d  ST7735_OutChar2               
+0001a31d  ST7735_OutString              
+0001a33b  ST7735_OutString2             
+0001a365  ST7735_SetTextColor           
+0001a37d  fputc                         
+0001a38f  fgetc                         
+0001a39b  ferror                        
+0001a3a9  Output_Init                   
+0001a3bd  Output_Clear                  
+0001a3cd  Output_Off                    
+0001a3d5  Output_On                     
+0001a3dd  Output_Color                  
+0001a3eb  ST7735_sDecOut2               
+0001a3f5  ST7735_uBinOut6               
+0001a3ff  ST7735_XYplotInit             
+0001a40f  ST7735_XYplot                 
+0001a445  plotLineX                     
+0001a53d  plotLineY                     
+0001a635  ST7735_Line                   
+0001a6eb  ST7735_SetX                   
+0001a717  ST7735_DrawLine               
+0001a881  CS_Init                       
+0001a8e3  SSI0_Init                     
+0001ad45  disk_initialize               
+0001aef5  disk_status                   
+0001af0f  disk_read                     
+0001afb1  disk_write                    
+0001b07b  disk_ioctl                    
+0001b2fb  disk_timerproc                
+0001b36b  Timer5_Init                   
+0001b3cd  Timer5A_Handler               
+0001b59b  BuildFrame_Solid              
+0001b62f  BuildFrame_Pixel              
+0001b6fd  BuildFrame_565                
+0001b799  BuildFrame_332                
+0001b833  BuildFrame_1bit               
+0001b8cd  BuildFrame_4bit               
+0001b991  BuildFrame_8bit               
+0001ba39  BuildFrame_VU                 
+0001bc0f  __aeabi_idiv0                 
+0001bc0f  __aeabi_ldiv0                 
+0001bf9d  Menu_Up                       
+0001bfa5  Menu_Down                     
+0001bfad  Menu_Select                   
+0001c121  LCD_Menu_Init                 
+0001c19d  buttonHandler                 
+0001c269  Motor_Init                    
+0001c3b3  Motor_SetSpeed                
+0001c451  Motor_SetDirection            
+0001c47f  Motor_GetRPM                  
+0001c485  Motor_Stop                    
+0001c48f  Motor_GetDuty                 
+0001c495  WideTimer0A_Handler           
+0001c5b1  Motor_StallCheck              
+0001c639  Motor_Spinup                  
+0001c6bd  Motor_Spindown                
+0001c715  Motor_Tick                    
+0001c7b9  Motor_GetGearPulseCount       
+0001c7bf  Motor_GetGearAngle            
+0001c7c5  Motor_GetRevPeriod            
+0001c86b  SetMode_ROM                   
+0001c8fd  main                          
+0001c995  SetMode_Mic                   
+0001ca5b  SetMode_8bit                  
+0001ca91  SetMode_4bit                  
+0001cbb9  Globe_ToggleMode              
+0001cc0d  Globe_ChangeContent           
+0001cc61  DMA_Done_Callback             
+0001cdb1  LED_Init                      
+0001cdf1  PF_Init                       
+0001ce7d  LED_HBT                       
+0001cea1  PF_In                         
+0001cec3  GPIOPortF_Handler             
+0001cf15  PB_Init                       
+0001cfa9  PB_In                         
+0001cfb5  GPIOPortB_Handler             
+0001d0ad  SK9822_SPI_Init               
+0001d173  SK9822_DMA_CH13_Init          
+0001d217  SK9822_DMA_Start              
+0001d291  SK9822_DMA_IsBusy             
+0001d297  SSI2_Handler                  
+0001d365  SD_DMA_CH10_Init              
+0001d399  SD_DMA_Read_Sector            
+0001d499  ResetISR                      
+0001d4a5  SVC_Handler                   
+0001d4a7  DebugMon_Handler              
+0001d4a9  PendSV_Handler                
+0001d4ad  GPIOPortA_Handler             
+0001d4b1  GPIOPortC_Handler             
+0001d4b3  GPIOPortD_Handler             
+0001d4b5  GPIOPortE_Handler             
+0001d4b7  UART0_Handler                 
+0001d4b9  UART1_Handler                 
+0001d4bb  SSI0_Handler                  
+0001d4bd  I2C0_Handler                  
+0001d4bf  PWM0Fault_Handler             
+0001d4c1  PWM0Generator0_Handler        
+0001d4c3  PWM0Generator1_Handler        
+0001d4c5  PWM0Generator2_Handler        
+0001d4c7  Quadrature0_Handler           
+0001d4c9  ADC0Seq0_Handler              
+0001d4cb  ADC0Seq1_Handler              
+0001d4cd  ADC0Seq2_Handler              
+0001d4cf  ADC0Seq3_Handler              
+0001d4d1  WDT_Handler                   
+0001d4d5  Timer0B_Handler               
+0001d4d9  Timer1B_Handler               
+0001d4dd  Timer2B_Handler               
+0001d4df  Comp0_Handler                 
+0001d4e1  Comp1_Handler                 
+0001d4e3  Comp2_Handler                 
+0001d4e5  SysCtl_Handler                
+0001d4e7  FlashCtl_Handler              
+0001d4eb  GPIOPortG_Handler             
+0001d4ed  GPIOPortH_Handler             
+0001d4ef  UART2_Handler                 
+0001d4f1  SSI1_Handler                  
+0001d4f5  Timer3B_Handler               
+0001d4f7  I2C1_Handler                  
+0001d4f9  Quadrature1_Handler           
+0001d4fb  CAN0_Handler                  
+0001d4fd  CAN1_Handler                  
+0001d4ff  CAN2_Handler                  
+0001d501  Ethernet_Handler              
+0001d503  Hibernate_Handler             
+0001d505  USB0_Handler                  
+0001d507  PWM0Generator3_Handler        
+0001d509  uDMA_Handler                  
+0001d50b  uDMA_Error                    
+0001d50d  ADC1Seq0_Handler              
+0001d50f  ADC1Seq1_Handler              
+0001d511  ADC1Seq2_Handler              
+0001d513  ADC1Seq3_Handler              
+0001d515  I2S0_Handler                  
+0001d517  ExtBus_Handler                
+0001d519  GPIOPortJ_Handler             
+0001d51b  GPIOPortK_Handler             
+0001d51d  GPIOPortL_Handler             
+0001d521  SSI3_Handler                  
+0001d523  UART3_Handler                 
+0001d525  UART4_Handler                 
+0001d527  UART5_Handler                 
+0001d529  UART6_Handler                 
+0001d52b  UART7_Handler                 
+0001d52d  I2C2_Handler                  
+0001d52f  I2C3_Handler                  
+0001d533  Timer4B_Handler               
+0001d537  Timer5B_Handler               
+0001d53b  WideTimer0B_Handler           
+0001d53d  WideTimer1A_Handler           
+0001d53f  WideTimer1B_Handler           
+0001d541  WideTimer2A_Handler           
+0001d543  WideTimer2B_Handler           
+0001d545  WideTimer3A_Handler           
+0001d547  WideTimer3B_Handler           
+0001d549  WideTimer4A_Handler           
+0001d54b  WideTimer4B_Handler           
+0001d54d  WideTimer5A_Handler           
+0001d54f  WideTimer5B_Handler           
+0001d551  FPU_Handler                   
+0001d553  PECI0_Handler                 
+0001d555  LPC0_Handler                  
+0001d557  I2C4_Handler                  
+0001d559  I2C5_Handler                  
+0001d55b  GPIOPortM_Handler             
+0001d55d  GPIOPortN_Handler             
+0001d55f  Quadrature2_Handler           
+0001d561  Fan0_Handler                  
+0001d563  GPIOPortP_Handler             
+0001d565  GPIOPortP1_Handler            
+0001d567  GPIOPortP2_Handler            
+0001d569  GPIOPortP3_Handler            
+0001d56b  GPIOPortP4_Handler            
+0001d56d  GPIOPortP5_Handler            
+0001d56f  GPIOPortP6_Handler            
+0001d571  GPIOPortP7_Handler            
+0001d573  GPIOPortQ_Handler             
+0001d575  GPIOPortQ1_Handler            
+0001d577  GPIOPortQ2_Handler            
+0001d579  GPIOPortQ3_Handler            
+0001d57b  GPIOPortQ4_Handler            
+0001d57d  GPIOPortQ5_Handler            
+0001d57f  GPIOPortQ6_Handler            
+0001d581  GPIOPortQ7_Handler            
+0001d583  GPIOPortR_Handler             
+0001d585  GPIOPortS_Handler             
+0001d587  PWM1Generator0_Handler        
+0001d589  PWM1Generator1_Handler        
+0001d58b  PWM1Generator2_Handler        
+0001d58d  PWM1Generator3_Handler        
+0001d58f  PWM1Fault_Handler             
+0001d591  DisableInterrupts             
+0001d595  EnableInterrupts              
+0001d599  StartCritical                 
+0001d5a1  EndCritical                   
+0001d5a7  WaitForInterrupt              
+0001d5ad  Mic_Init                      
+0001d63b  Mic_Read                      
+0001d6ad  Timer4A_Init                  
+0001d715  Timer4A_Handler               
+0001d725  Timer4A_Stop                  
+0001d733  Timer4A_SetPeriod             
+0001d775  Timer0A_Init                  
+0001d7eb  Timer0A_Handler               
+0001d7fb  Timer0A_Stop                  
+0001d839  Timer1A_Init                  
+0001d8a3  Timer1A_Handler               
+0001d8b3  Timer1A_Stop                  
+0001d8f5  Timer2A_Init                  
+0001d95f  Timer2A_Handler               
+0001d96f  Timer2A_Stop                  
+0001d9b1  Timer3A_Init                  
+0001da19  Timer3A_Handler               
+0001da29  Timer3A_Stop                  
+0001da69  __aeabi_memcpy                
+0001da69  __aeabi_memcpy4               
+0001da69  __aeabi_memcpy8               
+0001da69  memcpy                        
+0001db05  __aeabi_uldivmod              
+0001db9d  PLL_Init                      
+0001dc25  SysTick_Init                  
+0001dc61  SysTick_Handler               
+0001dca1  __aeabi_memclr                
+0001dca1  __aeabi_memclr4               
+0001dca1  __aeabi_memclr8               
+0001dca3  __aeabi_memset                
+0001dca3  __aeabi_memset4               
+0001dca3  __aeabi_memset8               
+0001dca9  memset                        
+0001dd1b  __TI_decompress_lzss          
+0001dd85  __TI_auto_init_nobinit_nopinit
+0001ddc9  DMA_Init                      
+0001de01  _c_int00_noargs               
+0001de35  __TI_decompress_none          
+0001de43  __TI_zero_init                
+0001de4f  _system_pre_init              
+0001de53  C$$EXIT                       
+0001de53  abort                         
+0001dea4  __TI_Handler_Table_Base       
+0001deb0  __TI_Handler_Table_Limit      
+0001deb8  __TI_CINIT_Base               
+0001dec8  __TI_CINIT_Limit              
+20000000  __start___llvm_prf_cnts       
+20000000  __stop___llvm_prf_cnts        
+20004ecc  Message                       
+20004eec  Messageindex                  
+20004ef0  PeriodicTask0                 
+20004ef4  PeriodicTask1                 
+20004ef8  PeriodicTask2                 
+20004efc  PeriodicTask3                 
+20004f00  PeriodicTask4                 
+20004f04  X                             
+20004f08  Ymax                          
+20004f0c  Ymin                          
+20004f10  Yrange                        
+20004f14  raw                           
+20005000  ucControlTable                
+20005cf8  __stack                       
+20005ef8  __STACK_END                   
+20005ef8  __STACK_TOP                   
+20005f41  motorRampState                
+20005f4d  motor_state_changed           
+20005f54  StX                           
+20005f58  StY                           
+20005f5c  StTextColor                   
+20005f64  lastj                         
+20005f6a  ledModeAnim                   
+20005f6c  lcd_last_press                
+20005f70  btn_up                        
+20005f71  btn_down                      
+20005f72  btn_select                    
+20005f73  motor_state                   
+20005f74  motorSetpoint                 
+20005f75  dmaBusy                       
+20005f7c  last_press                    
+20005f80  PF4_High                      
+20005f81  PF0_High                      
+20005f84  msTick                        
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+ffffffff  binit                         
+UNDEFED   __mpu_init                    
+UNDEFED   _system_post_cinit            
+
+[365 symbols]

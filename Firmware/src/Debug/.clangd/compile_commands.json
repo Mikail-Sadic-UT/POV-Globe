@@ -1,0 +1,262 @@
+[
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/baby/baby_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/baby/baby_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/boi/boi_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/boi/boi_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/cat_space/cat_space_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/cat_space/cat_space_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/dermot/dermot_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/dermot/dermot_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/dot/dot_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/dot/dot_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/eye/eye_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/eye/eye_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/frog/frog_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/frog/frog_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/globe_old/globe_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/globe_old/palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/lebron/lebron_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/lebron/lebron_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/map_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/map_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/vote/vote_data.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Data/vote/vote_palette.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Clock.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/DMA_Common.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/FIFO.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/GPIO.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/LCD.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/MQTT.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Mic.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Motor.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/PLL.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/SD_DMA.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/SK9822.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/SK9822_DMA_SSI.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/ST7735.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/SysTickInts.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/TLV5616.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Timer0A.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Timer1A.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Timer2A.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Timer3A.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Timer4A.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Timer5A.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/UART.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/UART5.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/Unified_Port_Init.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/diskio_DMA.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/esp8266_base.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/ff.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/tm4c123gh6pm_startup_ccs.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/main_sd.c"
+   },
+   {
+      "directory" : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Debug",
+      "command"   : "clang++ -I\"C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src\" -I\"C:/ti/ti-cgt-arm_20.2.7.LTS/include\" -Dccs=\"ccs\" -DPART_TM4C123GH6PM -xc",
+      "file"      : "C:/Users/Mikster/Desktop/UT/gtihub/POV-Globe/Firmware/src/Drivers/src/CortexM.c"
+   }
+]

@@ -23,7 +23,8 @@ Three display modes:
 ```
 POV-Globe/
 ├── Firmware/     Code Composer Studio project (TM4C123GH6PM)
-├── Hardware/     KiCad 9.0 PCB design
+├── Hardware/     KiCad 9.0 PCB files
+├── Mechanical/   Step files
 ├── Scripts/      Python image conversion tools
 └── BOM.xlsx      Bill of materials
 ```

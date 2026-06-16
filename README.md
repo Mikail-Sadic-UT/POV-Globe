@@ -86,3 +86,19 @@ KiCad 9.0 is required to open the schematic and PCB files. All design files and 
 | `toBin.py` | Binary packing utility |
 
 See [`Scripts/Documentation.md`](Scripts/Documentation.md) for full usage.
+
+## Mechanical
+
+See Mechanical Folder for STEP models and assembly. Full build can be found here:
+<h2 align="center">🎥 Demo Video</h2>
+
+<p align="center">
+  <a href="[https://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/JPuDUcfGZ3w)">
+    <img
+      src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg"
+      alt="Watch the demo"
+      width="800"
+    />
+  </a>
+</p>
+

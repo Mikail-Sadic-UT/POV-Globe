@@ -90,7 +90,8 @@ See [`Scripts/Documentation.md`](Scripts/Documentation.md) for full usage.
 
 ## Mechanical
 
-See Mechanical Folder for STEP models and assembly. Full build can be found here:
+See Mechanical Folder for STEP models and assembly. 
+Youtube video:
 
 [![Demo Video](elements/Thumbnail.png)](https://youtu.be/JPuDUcfGZ3w)
 

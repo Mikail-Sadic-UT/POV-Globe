@@ -102,3 +102,7 @@ See Mechanical Folder for STEP models and assembly. Full build can be found here
   </a>
 </p>
 
+## Demo Video
+
+[![Demo Video](elements/Thumbnail.png)](https://youtu.be/JPuDUcfGZ3w)
+
